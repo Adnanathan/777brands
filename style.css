@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 200px;
+}
+
+.product button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+}
